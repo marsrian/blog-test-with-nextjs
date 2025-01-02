@@ -97,6 +97,11 @@ export default function Header() {
             Projects
           </Navbar.Link>
         </Link>
+        <Link href='/dashboard/create-post'>
+          <Navbar.Link active={path === '/dashboard/create-post'} as={'div'}>
+            Dashboard
+          </Navbar.Link>
+        </Link>
       </Navbar.Collapse>
     </Navbar>
   );
